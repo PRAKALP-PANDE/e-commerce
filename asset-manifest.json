@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/e-commerce/static/css/main.da761cd0.css",
+    "main.js": "/e-commerce/static/js/main.b758bc7e.js",
+    "static/js/787.1d92a918.chunk.js": "/e-commerce/static/js/787.1d92a918.chunk.js",
+    "static/media/PSP-logos_transparent.png": "/e-commerce/static/media/PSP-logos_transparent.f69ee1f0d4ae469df8d8.png",
+    "static/media/PSP.png": "/e-commerce/static/media/PSP.badf0491393211a1da32.png",
+    "index.html": "/e-commerce/index.html",
+    "main.da761cd0.css.map": "/e-commerce/static/css/main.da761cd0.css.map",
+    "main.b758bc7e.js.map": "/e-commerce/static/js/main.b758bc7e.js.map",
+    "787.1d92a918.chunk.js.map": "/e-commerce/static/js/787.1d92a918.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da761cd0.css",
+    "static/js/main.b758bc7e.js"
+  ]
+}
