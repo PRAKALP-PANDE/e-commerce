@@ -1,6 +1,7 @@
 import img1 from "./car.jpg";
-import img3 from "../../PSP.png";
-import img2 from "../../PSP-logos_transparent.png";
+import img2 from "./java.png";
+import img3 from "./react.jpg";
+// import img2 from "../../PSP-logos_transparent.png";
 const cartdata = {
     productData:[
         {

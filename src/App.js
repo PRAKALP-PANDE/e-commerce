@@ -10,6 +10,7 @@ import Admin from './components/Admin';
 import Product from './components/Product';
 import Yourcart from './components/Yourcart';
 import Nav from './Nav';
+import Footer from './components/Footer';
 // import DisplayProducts from './components/DisplayProducts';
 
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/admin" element={<Admin />} />
           <Route path="/yourcart" element={<Yourcart/>} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );
