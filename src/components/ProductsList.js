@@ -102,7 +102,7 @@ const ProductsList = ({ getProductId }) => {
                   <td>{doc.status}</td>
                   <td>
                     <Button
-                      variant="secondary"
+                      variant="warning"
                       className="edit mx-3 my-3"
                       onClick={(e) => getProductId(doc.id)}
                     >

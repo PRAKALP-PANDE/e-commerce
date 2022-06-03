@@ -7,10 +7,10 @@ const Cart = () => {
         totalUniqueItems,
         items,
         totalItems,
-        cartTotal,
+        // cartTotal,
         updateItemQuantity,
         removeItem,
-        emptyCart,
+        // emptyCart,
     } = useCart();
     if (isEmpty) return <h1 className="text-center">Your cart is empty</h1>
     return (

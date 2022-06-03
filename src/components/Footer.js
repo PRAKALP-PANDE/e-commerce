@@ -1,5 +1,6 @@
 import React from 'react';
 import { MDBFooter } from 'mdb-react-ui-kit';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
@@ -10,24 +11,24 @@ export default function Footer() {
                 </div>
 
                 <div>
-                    <a href='' className='me-4 text-reset'>
+                    <Link to='' className='me-4 text-reset'>
                         <i className='fab fa-facebook-f'></i>
-                    </a>
-                    <a href='' className='me-4 text-reset'>
+                    </Link>
+                    <Link to='' className='me-4 text-reset'>
                         <i className='fab fa-twitter'></i>
-                    </a>
-                    <a href='' className='me-4 text-reset'>
+                    </Link>
+                    <Link to='' className='me-4 text-reset'>
                         <i className='fab fa-google'></i>
-                    </a>
-                    <a href='' className='me-4 text-reset'>
+                    </Link>
+                    <Link to='' className='me-4 text-reset'>
                         <i className='fab fa-instagram'></i>
-                    </a>
-                    <a href='' className='me-4 text-reset'>
+                    </Link>
+                    <Link to='' className='me-4 text-reset'>
                         <i className='fab fa-linkedin'></i>
-                    </a>
-                    <a href='' className='me-4 text-reset'>
+                    </Link>
+                    <Link to='' className='me-4 text-reset'>
                         <i className='fab fa-github'></i>
-                    </a>
+                    </Link>
                 </div>
             </section>
 
@@ -46,48 +47,48 @@ export default function Footer() {
                         <div className='col-md-2 col-lg-2 col-xl-2 mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
                             <p>
-                                <a href='#!' className='text-reset'>
-                                    Lorem
-                                </a>
+                                <Link to='/' className='text-reset'>
+                                    Home
+                                </Link>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
-                                    Lorem
-                                </a>
+                                <Link to='/admin' className='text-reset'>
+                                    Admin
+                                </Link>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
-                                    Lorem
-                                </a>
+                                <Link to='/yourcart' className='text-reset'>
+                                    Your Cart
+                                </Link>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <Link to='#!' className='text-reset'>
                                     Lorem
-                                </a>
+                                </Link>
                             </p>
                         </div>
 
                         <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <Link to='#!' className='text-reset'>
                                     Pricing
-                                </a>
+                                </Link>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <Link to='#!' className='text-reset'>
                                     Settings
-                                </a>
+                                </Link>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <Link to='#!' className='text-reset'>
                                     Orders
-                                </a>
+                                </Link>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <Link to='#!' className='text-reset'>
                                     Help
-                                </a>
+                                </Link>
                             </p>
                         </div>
 
@@ -103,6 +104,11 @@ export default function Footer() {
                             <p>
                                 <i className='fas fa-phone me-3'></i> +91 99220 15121
                             </p>
+                            <Link to='/'>
+                                <p>
+                                    <i className='fas fa-phone me-3'></i> Contact Us
+                                </p>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -110,9 +116,9 @@ export default function Footer() {
 
             <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
                 © 2022 Copyright:
-                <a className='text-reset fw-bold' href='https://prakalp-pande.github.io/e-commerce/'>
+                <Link className='text-reset fw-bold' to='https://prakalp-pande.github.io/e-commerce/'>
                     prakalp-pande.github.io
-                </a>
+                </Link>
             </div>
         </MDBFooter>
     );

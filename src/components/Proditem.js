@@ -10,7 +10,7 @@ export default function Proditem(props) {
     let { title, price, status, image, rating } = props;
     return (
         <div className='my-3'>
-            <div className="card" >
+            <div className="card">
                 <div style={{
                     display: 'flex',
                     justifyContent: 'flex-end',
