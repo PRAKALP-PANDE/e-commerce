@@ -1,8 +1,8 @@
-import { doc } from "firebase/firestore";
+// import { doc } from "firebase/firestore";
 import React, { useEffect, useState } from "react";
 import ProductDataService from "../services/product.services";
-import { useCart } from "react-use-cart";
 import Proditem from "./Proditem";
+// import { useCart } from "react-use-cart";
 // import Cart from "./Cart";
 // import './DisplayProducts.css';
 

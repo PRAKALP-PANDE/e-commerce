@@ -9,7 +9,7 @@ export default function Proditem(props) {
       };
     let { title, price, status, image, rating } = props;
     return (
-        <div className='my-3'>
+        <div className="my-3 mx-4">
             <div className="card">
                 <div style={{
                     display: 'flex',

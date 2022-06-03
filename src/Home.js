@@ -1,12 +1,17 @@
 import React from 'react'
 import './Home.css'
-import Product from './Product'
+// import Product from './Product'
 
 export default function Home() {
+    const mystyle = {
+        width: "100 %",
+        zIndex: "-1",
+        marginBottom: "-150px",
+    };
     return (
         <div className="home">
             <div className="home_container">
-                <img className="home_image"
+                <img className="img-fluid home_image" style={mystyle}
                     src="https://m.media-amazon.com/images/I/91RfzXVWFlL._SX3000_.jpg" alt="" />
                 {/* <div className="home_row">
                     <Product
