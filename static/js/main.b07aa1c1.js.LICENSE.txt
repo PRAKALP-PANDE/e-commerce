@@ -4,6 +4,8 @@
   http://jedwatson.github.io/classnames
 */
 
+/*! For license information please see index.js.LICENSE.txt */
+
 /**
           * @license
           * Copyright 2017 Google LLC
